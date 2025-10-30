@@ -2,6 +2,8 @@ app-id: rocks.poopjournal.librelinkupdesktop
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '23.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node20
 command: run.sh
@@ -11,7 +13,6 @@ finish-args:
   - --socket=x11
   - --socket=pulseaudio
   - --share=network
-  - --device=dri
 build-options:
   append-path: /usr/lib/sdk/node20/bin
   env:
@@ -38,8 +39,7 @@ modules:
         url: https://github.com/deviitorinc/LibreLinkUpDesktop.git
         tag: v0.1.15-008
         commit: 69f12e20dc77980545ff91a6d20f18a738483424
-      - type: file
-        path: generated-sources.json
+      - generated-sources.json
       - type: script
         dest-filename: run.sh
         commands:
