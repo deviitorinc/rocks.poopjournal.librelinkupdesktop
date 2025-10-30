@@ -1,4 +1,4 @@
-name: Auto PR Manager for Flathub
+name: Auto PR Manager for Flathu
 
 on:
   push:
