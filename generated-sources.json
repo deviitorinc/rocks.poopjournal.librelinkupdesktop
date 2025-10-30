@@ -1,5 +1,38 @@
 [
-
+    {
+        "type": "file",
+        "url": "https://codeload.github.com/electron/node-gyp/tar.gz/06b29aafb7708acef8b3669835c8a7857ebc92d2",
+        "sha512": "3178339530c41277490774c16ef779b8540effc81a20da351df7a7f2f79fe6babf54754f781eb7baebffb8ee7ef0616c009feb6aebba5c1efd4ba2b8f9a5dcfb",
+        "dest-filename": "339530c41277490774c16ef779b8540effc81a20da351df7a7f2f79fe6babf54754f781eb7baebffb8ee7ef0616c009feb6aebba5c1efd4ba2b8f9a5dcfb",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/31/78"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/electron/electron/releases/download/v34.5.0/SHASUMS256.txt",
+        "sha256": "f97dec86ec2009df888e189de10d8d89ebcc3d6aca9c0bbc597e61aa678eaf4b",
+        "dest-filename": "SHASUMS256.txt-34.5.0",
+        "dest": "flatpak-node/cache/electron"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/electron/electron/releases/download/v34.5.0/electron-v34.5.0-linux-arm64.zip",
+        "sha256": "7eee40339a9ad637c6360edfd02d5e02522432c7b0f0c70cf00cf4684e1b6691",
+        "dest-filename": "electron-v34.5.0-linux-arm64.zip",
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "aarch64"
+        ]
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/electron/electron/releases/download/v34.5.0/electron-v34.5.0-linux-armv7l.zip",
+        "sha256": "a7607a773a999df27034fd369d7c1ba940615923d5deec66f85aaa696da96345",
+        "dest-filename": "electron-v34.5.0-linux-armv7l.zip",
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "arm"
+        ]
+    },
     {
         "type": "file",
         "url": "https://github.com/electron/electron/releases/download/v34.5.0/electron-v34.5.0-linux-x64.zip",
@@ -11,6 +44,136 @@
         ]
     },
     {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@diakem/libre-link-up-api-client/-/libre-link-up-api-client-0.7.1.tgz",
+        "sha512": "6fc3207ef2fae89ec747f5137b67a0bc20dab0ef8a15c1f4e41903d28638aca638b2cdf3da6e1be9090a5f6b69671d92056e118bbaffafbf7ed0b43d54590fe0",
+        "dest-filename": "207ef2fae89ec747f5137b67a0bc20dab0ef8a15c1f4e41903d28638aca638b2cdf3da6e1be9090a5f6b69671d92056e118bbaffafbf7ed0b43d54590fe0",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/6f/c3"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz",
+        "sha512": "cf87aa26f7e236714c1c822f5cfdc2639ef2d9626ce60dafdd7d339bd984264ae436fe2b0f1bbeb20f4987c1245f27aa06407b48e71ba28f5d315aa1cab00222",
+        "dest-filename": "aa26f7e236714c1c822f5cfdc2639ef2d9626ce60dafdd7d339bd984264ae436fe2b0f1bbeb20f4987c1245f27aa06407b48e71ba28f5d315aa1cab00222",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/cf/87"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz",
+        "sha512": "9bd813c11921cb696f08f7ba409a787771b54d81141e7fc5cc952dabd3231f8e9a9f5c0953e19da060b954ba1ff115fc16dfc3969b21029921b300cb6731c871",
+        "dest-filename": "13c11921cb696f08f7ba409a787771b54d81141e7fc5cc952dabd3231f8e9a9f5c0953e19da060b954ba1ff115fc16dfc3969b21029921b300cb6731c871",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/9b/d8"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.7.tgz",
+        "sha512": "d0711bf11f44f00fa3663be6142cbf278c616d7cb74d5fbd5d29c62772af4ed8e5214cbf610fe9e94619be2ed86dea1e5ddc94f7e637b1c8b32ba864637edb68",
+        "dest-filename": "1bf11f44f00fa3663be6142cbf278c616d7cb74d5fbd5d29c62772af4ed8e5214cbf610fe9e94619be2ed86dea1e5ddc94f7e637b1c8b32ba864637edb68",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/d0/71"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+        "sha512": "69e3661e70716e2d92b746aee950550bb25716584b94e9ef20895e3cd9e2c943400a5ce6b4050463cfe90622b78878ee7ce97003e736d3ff239e0a3bc5cae0f0",
+        "dest-filename": "661e70716e2d92b746aee950550bb25716584b94e9ef20895e3cd9e2c943400a5ce6b4050463cfe90622b78878ee7ce97003e736d3ff239e0a3bc5cae0f0",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/69/e3"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz",
+        "sha512": "7352322582d8a69539ef8f9823b4784325f6cacb4cb555d9c087736b35083c826c1ee58d77e9a1a368fe6caa077ed9dd89c1a3f7287ec6377e974ca3ed5793d5",
+        "dest-filename": "322582d8a69539ef8f9823b4784325f6cacb4cb555d9c087736b35083c826c1ee58d77e9a1a368fe6caa077ed9dd89c1a3f7287ec6377e974ca3ed5793d5",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/73/52"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz",
+        "sha512": "254ded7874cd8e6136542185cee63c117cc20d5c04a81d9af1fb08bf0692b4784058911e55dd68d500fcd0253af997445d748b6d2b2e2f0263902056a9141454",
+        "dest-filename": "ed7874cd8e6136542185cee63c117cc20d5c04a81d9af1fb08bf0692b4784058911e55dd68d500fcd0253af997445d748b6d2b2e2f0263902056a9141454",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/25/4d"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz",
+        "sha512": "33b04057a465732e6efa6ea83e100f160253cc08a85ffe81d03c72bc3968f65f3e4f79cb29badcce0d962d4cb3778e4bf11a9f50cc863f37a46ccbd7d8b764c2",
+        "dest-filename": "4057a465732e6efa6ea83e100f160253cc08a85ffe81d03c72bc3968f65f3e4f79cb29badcce0d962d4cb3778e4bf11a9f50cc863f37a46ccbd7d8b764c2",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/33/b0"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/7zip-bin/-/7zip-bin-5.2.0.tgz",
+        "sha512": "ba44cf561a86e2337332ba36a80f4748249254937768deed95bfa17ea602b77111d325aba1e036551dfc30dace1cb43f7158fe0da20c69dd24142b565a8c21fc",
+        "dest-filename": "cf561a86e2337332ba36a80f4748249254937768deed95bfa17ea602b77111d325aba1e036551dfc30dace1cb43f7158fe0da20c69dd24142b565a8c21fc",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/ba/44"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@adobe/css-tools/-/css-tools-4.4.2.tgz",
+        "sha512": "6da619131169b1d90136ebc62932960b0287e7b1d164b56dc9c652d3959340d54e897552780922de7537e739516d3a1e316f1a1e525fc92fb50b804ebf6eead0",
+        "dest-filename": "19131169b1d90136ebc62932960b0287e7b1d164b56dc9c652d3959340d54e897552780922de7537e739516d3a1e316f1a1e525fc92fb50b804ebf6eead0",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/6d/a6"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz",
+        "sha512": "52b700041fb86d4ac5001c1b96e4c8044ad7c2f6ec53f57b4d959f99b8097db930881bb3892f60c5d383532ba279c7dd190f398e094c5ba8ee4b7fb3e53b0a2f",
+        "dest-filename": "00041fb86d4ac5001c1b96e4c8044ad7c2f6ec53f57b4d959f99b8097db930881bb3892f60c5d383532ba279c7dd190f398e094c5ba8ee4b7fb3e53b0a2f",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/52/b7"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@ampproject/remapping/-/remapping-2.3.0.tgz",
+        "sha512": "df4899b403e0cfe2d3218a1e8afa98a3ce777f4da305849de6e1a71a9905574337c4eb7d68def77ab920600999538df1e157ea7272f15bd2a98374792c2e1863",
+        "dest-filename": "99b403e0cfe2d3218a1e8afa98a3ce777f4da305849de6e1a71a9905574337c4eb7d68def77ab920600999538df1e157ea7272f15bd2a98374792c2e1863",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/df/48"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/code-frame/-/code-frame-7.26.2.tgz",
+        "sha512": "4499481d1b9e420c168ad5a017c39d1581995f7dbc031e4109e98d1a5a877e9967453f444a2f0990596f69561b4be52e6d563a769bfcec5b36bb9336f6234555",
+        "dest-filename": "481d1b9e420c168ad5a017c39d1581995f7dbc031e4109e98d1a5a877e9967453f444a2f0990596f69561b4be52e6d563a769bfcec5b36bb9336f6234555",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/44/99"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.26.8.tgz",
+        "sha512": "a07e543cb3164772f6c0414b9c52754d95ea1ee7e24ca0222dfab0e739214b874a5cb275d32573b5f8a5fedc06f040d303817fb6f54dc3d9ce97864cb2507cad",
+        "dest-filename": "543cb3164772f6c0414b9c52754d95ea1ee7e24ca0222dfab0e739214b874a5cb275d32573b5f8a5fedc06f040d303817fb6f54dc3d9ce97864cb2507cad",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/a0/7e"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/core/-/core-7.26.10.tgz",
+        "sha512": "bccab26fb5c20cc3ef24514e693f64c6d891878d86c25644835fee220b59b214b96bff0e69db947c28bb9329ca81cdd3c3fe94a360fe75bf6a06db608619b1c1",
+        "dest-filename": "b26fb5c20cc3ef24514e693f64c6d891878d86c25644835fee220b59b214b96bff0e69db947c28bb9329ca81cdd3c3fe94a360fe75bf6a06db608619b1c1",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/bc/ca"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/generator/-/generator-7.27.0.tgz",
+        "sha512": "5726ec2afa62375814d6c74c648a7b15caa985554a13072e8f4db1ef7baf7071343d38a1c759e505ca30616843c23a6801746fe37fa00f3ca08069e7d5766157",
+        "dest-filename": "ec2afa62375814d6c74c648a7b15caa985554a13072e8f4db1ef7baf7071343d38a1c759e505ca30616843c23a6801746fe37fa00f3ca08069e7d5766157",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/57/26"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.25.9.tgz",
+        "sha512": "82fef7db4281505273d519f294883959660f457299f3ce001a4629829596d364c7eba0e5f87682d6dd4229dd33dd1e1bea175811c9ab3591d499f08ffb5bb7fe",
+        "dest-filename": "f7db4281505273d519f294883959660f457299f3ce001a4629829596d364c7eba0e5f87682d6dd4229dd33dd1e1bea175811c9ab3591d499f08ffb5bb7fe",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/82/fe"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.27.0.tgz",
+        "sha512": "2d593b7db5e69741f6c47df8745cca43b4c36761b8feb5533ababd57e89c6db69d8db571c5e15e0ec347bf64ab65e5a803ee99893c96616b52704216d3b10070",
+        "dest-filename": "3b7db5e69741f6c47df8745cca43b4c36761b8feb5533ababd57e89c6db69d8db571c5e15e0ec347bf64ab65e5a803ee99893c96616b52704216d3b10070",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/2d/59"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.npmmirror.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.27.0.tgz",
+        "sha512": "bd2182bcc79cbc509dfc17691a58695d8361842e1c731caf416a5b18be0259bbdf1282c559466e4ae7fbb3d030ef47e581017eeafa6dbe02b621f3a72a546606",
+        "dest-filename": "82bcc79cbc509dfc17691a58695d8361842e1c731caf416a5b18be0259bbdf1282c559466e4ae7fbb3d030ef47e581017eeafa6dbe02b621f3a72a546606",
         "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/bd/21"
     },
     {
