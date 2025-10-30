@@ -36,9 +36,9 @@ modules:
       - install -Dm444 flathub/rocks.poopjournal.librelinkupdesktop.metainfo.xml /app/share/metainfo/rocks.poopjournal.librelinkupdesktop.metainfo.xml
     sources:
       - type: git
-        url: https://github.com/deviitorinc/LibreLinkUpDesktop.git
+        url: https://github.com/deviitorinc/LibreLinkp.git
         tag: v0.1.15-008
-        commit: 69f12e20dc77980545ff91a6d20f18a738483424
+        commit: 69f12e20dc779838483424
       - generated-sources.json
       - type: script
         dest-filename: run.sh
