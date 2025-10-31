@@ -42,7 +42,7 @@ modules:
       - type: git
         url: https://github.com/deviitorinc/LibreLinkUpDesktop.git
         tag: v0.1.15-008
-        commit: a408ce76089785fc55fdf7f2da35d26ca0497225
+        commit: 6c897430881f614f4ae405c077345e7f4a5e6b57
       - generated-sources.json
       - type: script
         dest-filename: run.sh
