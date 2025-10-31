@@ -40,8 +40,8 @@ modules:
         /app/share/metainfo/rocks.poopjournal.librelinkupdesktop.metainfo.xml
     sources:
       - type: git
-        url: https://github.com/deviitorinc/LibreUpDesktop.git
-        commit: 6c897430881f64a5e6b57
+        url: https://github.com/deviitorinc/LibreLinkUpDesktop.git
+        commit: 6c897430881f614f4ae405c077345e7f4a5e6b57
       - generated-sources.json
       - type: script
         dest-filename: run.sh
