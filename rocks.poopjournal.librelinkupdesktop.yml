@@ -28,7 +28,7 @@ modules:
     build-commands:
       - npm install --legacy-peer-deps --offline
       - ./flatpak-node/electron-builder-arch-args.sh
-      - tsx ./.erb/scripts/clean.js dist && npm run build && npx 
+      - npx tsx ./.erb/scripts/clean.js dist && npm run build && npx 
         electron-builder --linux --dir $ELECTRON_BUILDER_ARCH_ARGS
       - cp -a release/build/linux*unpacked /app/main
       - install -Dm755 -t /app/bin/ ./run.sh
